@@ -1,0 +1,75 @@
+===== Courier Package Tracker System =====
+1. Add New Package
+2. View All Packages
+3. Search Package by Tracking ID
+4. Update Package Status
+5. Exit
+Enter your choice: 1
+Enter Tracking ID: 1234567890
+Enter Sender Name: mamatha
+Enter Receiver Name: raghavi
+Enter Status (e.g., Shipped, In Transit, Delivered): In Transit
+Enter Delivery Date (YYYY-MM-DD): 2025-07-25
+Package added successfully!
+
+===== Courier Package Tracker System =====
+1. Add New Package
+2. View All Packages
+3. Search Package by Tracking ID
+4. Update Package Status
+5. Exit
+Enter your choice: 2
+
+TrackingID      Sender  Receiver        Status          Delivery Date
+-------------------------------------------------------------------
+1234    kavya   gagana  delivered       2025-07-23
+1234567890      mamatha raghavi In Transit      2025-07-25
+
+===== Courier Package Tracker System =====
+1. Add New Package
+2. View All Packages
+3. Search Package by Tracking ID
+4. Update Package Status
+5. Exit
+Enter your choice: 3
+Enter Tracking ID to search: 1234
+
+Package Found:
+Tracking ID : 1234
+Sender      : kavya
+Receiver    : gagana
+Status      : delivered
+Delivery Date: 2025-07-23
+
+===== Courier Package Tracker System =====
+1. Add New Package
+2. View All Packages
+3. Search Package by Tracking ID
+4. Update Package Status
+5. Exit
+Enter your choice: 4
+Enter Tracking ID to update: 1234567890
+Enter New Status: shipped
+Package status updated successfully.
+
+===== Courier Package Tracker System =====
+1. Add New Package
+2. View All Packages
+3. Search Package by Tracking ID
+4. Update Package Status
+5. Exit
+Enter your choice: 2
+
+TrackingID      Sender  Receiver        Status          Delivery Date
+-------------------------------------------------------------------
+1234    kavya   gagana  delivered       2025-07-23
+1234567890      mamatha raghavi shipped 2025-07-25
+
+===== Courier Package Tracker System =====
+1. Add New Package
+2. View All Packages
+3. Search Package by Tracking ID
+4. Update Package Status
+5. Exit
+Enter your choice: 5
+Exiting system. Thank you!
